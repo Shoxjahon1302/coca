@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import logo from '../img/logo.png';
+import uy from '../img/uy.png';
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
@@ -7,7 +8,7 @@ export default function NavBar() {
   return (
     <div className="max-w-full bg-[#F9F9FB]">
       <nav className="w-[1440px] m-auto ">
-        <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center  md:flex md:px-8">
+        <div className="justify-between px-14 mx-auto md:items-center  md:flex md:px-1">
           <div className=" items-center gap-10 md:flex">
             <div>
               <div className="flex items-center  justify-between py-3 md:py-5 md:block">
@@ -68,6 +69,31 @@ export default function NavBar() {
                 Get Started Free
               </button>
             </div>
+          </div>
+        </div>
+        <div className="flex sm:p-[29px_65px] sm:flex-col">
+          <div className="flex flex-col items-start">
+            <div className="mt-[108px] border border-[#1D1D21] rounded-[100px] font-bold sm:text-[12px] text-[14px] p-[8px_12px] text-[#1D1D21] font-['Inter'] leading-[150%]">
+              PROPERTY SOLUTION FOR ALL
+            </div>
+            <h1 className="pt-[24px] sm:text-[60px] sm:w-[314px]  w-[764px] leading-[110%] tracking-[-3px] text-[#101010] uppercase text-[140px] font-['DM Sans'] font-bold">
+              ECOHOUSE Style
+            </h1>
+            <p className="text-[#878787] pt-[24px] sm:text-[14px] sm:w-[270px] w-[412px] leading-[150%] text-[16px] font-medium font-['Inter']">
+              Stay informed about the market with real estate news and insights
+              provided by real estate professionals and government agencies.
+            </p>
+            <div className="flex sm:flex-col sm:items-start gap-[16px] mt-[30px] items-center sm:pb-0 pb-[165px]">
+              <h4 className="bg-[#1D1D21] hover:bg-white border cursor-pointer border-[#1D1D21] duration-200 hover:text-[#1D1D21] rounded-[100px] p-[16px_32px] text-[#FFFFFF] leading-[150%] font-semibold not-italic font-['Inter']">
+                See Our Case Studies
+              </h4>
+              <h4 className="border p-[16px_24px] hover:text-white hover:bg-[#1D1D21] duration-200 cursor-pointer  border-[#1D1D21] rounded-[100px] ">
+                <i className="fa-regular fa-circle-play"></i> Watch A Demo
+              </h4>
+            </div>
+          </div>
+          <div className="">
+            <img className='sm:w-[395px] ' src={uy} alt="" />
           </div>
         </div>
       </nav>
