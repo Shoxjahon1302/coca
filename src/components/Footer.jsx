@@ -3,14 +3,18 @@ import LogotipFooter from '../img/logotipfooter.png';
 
 export default function Footer() {
   return (
-    <div className="w-full bg-white">
-      <div className="w-[1440px] m-auto">
-        <div className="flex items-center justify-between pb-[30px] pt-[100px] border-b-2 border-[#E9ECEF] mix-blend-normal">
+    <div className="bg-white w-full sm:overflow-hidden">
+      <div className="max-w-[1440px] m-auto">
+        <div className="flex sm:flex-col sm:p-[43px] sm:border-none sm:items-center sm:w-[375px] items-center justify-between pb-[30px] pt-[100px] border-b-2 border-[#E9ECEF] mix-blend-normal">
           <div className="">
-            <img className='cursor-pointer' src={LogotipFooter} alt="" />
+            <img
+              className="cursor-pointer sm:mb-10"
+              src={LogotipFooter}
+              alt=""
+            />
           </div>
-          <div className="flex gap-[31px] items-center">
-            <h5 className="text-[#101010] cursor-pointer duration-200 hover:text-[#878787] leading-[160%] text-[16px] font-medium not-italic font-['Inter']">
+          <div className="flex sm:flex-col gap-[31px] sm:gap-3 items-center">
+            <h5 className="text-[#101010] sm:text-[16px]  cursor-pointer duration-200 hover:text-[#878787] leading-[160%] text-[16px] font-medium not-italic font-['Inter']">
               Ready to get started?
             </h5>
             <h5 className="bg-[#101010] hover:bg-[#F9F9FB] hover:text-[#101010] duration-200 border border-[#101010] rounded-[8px] p-[12px_42px] text-[#F9F9FB] cursor-pointer leading-[150%] text-[16px] font-bold not-italic font-['Inter']">
@@ -18,7 +22,7 @@ export default function Footer() {
             </h5>
           </div>
         </div>
-        <div className="flex items-center pt-[40px] justify-between">
+        <div className="flex sm:justify-center sm:w-[375px] items-center pt-[40px] justify-between">
           <div className="">
             <h1 className="text-[#101010] cursor-pointer w-[100px] tracking-[-1px] uppercase leading-[120%] text-[40px] font-bold not-italic font-['DM Sans'] ">
               Subscribe newsletter
@@ -26,15 +30,15 @@ export default function Footer() {
             <div className="flex items-center pt-[22px]">
               <input
                 type="text"
-                className="border-b-2 border-[#E2E4EB] h-[50px] mix-blend-normal outline-none"
+                className="border-b-2 border-[#E2E4EB] h-[50px] sm:w-[275px] mix-blend-normal outline-none"
                 placeholder="Email address"
               />
               <div className="text-[#F9F9FB] cursor-pointer duration-200 hover:opacity-50 flex items-center justify-center p-[20px_22px] bg-[#101010] w-[50px] h-[50px] rounded-[8px_8px_0px_0px]">
-              <i className="fa-solid fa-chevron-right"></i>
+                <i className="fa-solid fa-chevron-right"></i>
               </div>
             </div>
           </div>
-          <div className="">
+          <div className="sm:hidden">
             <h6 className="text-[#101010] hover:text-[#878787] duration-200 cursor-pointer  pt-[20px] leading-[120%] text-[18px] font-bold not-italic font-['Inter']">
               Services
             </h6>
@@ -51,7 +55,7 @@ export default function Footer() {
               Offline
             </h6>
           </div>
-          <div className="">
+          <div className="sm:hidden">
             <h6 className="text-[#101010] duration-200 cursor-pointer hover:text-[#878787] pt-[20px] leading-[120%] text-[18px] font-bold not-italic font-['Inter']">
               About
             </h6>
@@ -68,7 +72,7 @@ export default function Footer() {
               Careers
             </h6>
           </div>
-          <div className="pb-[60px]">
+          <div className="pb-[60px] sm:hidden">
             <h6 className="text-[#101010] duration-200 cursor-pointer hover:text-[#878787] leading-[120%] text-[18px] font-bold not-italic font-['Inter']">
               Help
             </h6>
@@ -80,16 +84,16 @@ export default function Footer() {
             </h6>
           </div>
         </div>
-        <div className="flex pt-[67px] pb-[95px] items-center justify-between">
+        <div className="flex sm:flex sm:flex-col sm:justify-center sm:w-[375px] pt-[67px] pb-[95px] items-center justify-between">
           <div className="flex gap-[55.07px]">
             <h6 className="duration-200 cursor-pointer hover:text-[#878787] text-[#33353E] leading-[160%] text-[16px] font-medium not-italic font-['Inter']">
               Terms & Conditions
             </h6>
-            <h6 className="duration-200 cursor-pointer hover:text-[#878787] text-[#33353E] leading-[160%] text-[16px] font-medium not-italic font-['Inter']">
+            <h6 className="duration-200 sm:ml-16 cursor-pointer hover:text-[#878787] text-[#33353E] leading-[160%] text-[16px] font-medium not-italic font-['Inter']">
               Privacy Policy
             </h6>
           </div>
-          <div className="flex gap-[40.04px] duration-150 ">
+          <div className="flex gap-[40.04px] sm:m-[36px] sm:space-x-[40px] sm:text-[30px] duration-150 sm:block ">
             <i className="fa-brands fa-facebook hover:text-[#878787] cursor-pointer duration-200"></i>
             <i className="fa-brands fa-twitter hover:text-[#878787]  cursor-pointer  duration-200"></i>
             <i className="fa-brands fa-instagram hover:text-[#878787]  cursor-pointer  duration-200"></i>

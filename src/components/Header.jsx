@@ -6,12 +6,12 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <div className="max-w-full bg-[#F9F9FB]">
+    <div className="max-w-full bg-[#F9F9FB] sm:overflow-hidden">
       <nav className="w-[1440px] m-auto ">
-        <div className="justify-between px-14 mx-auto md:items-center  md:flex md:px-1">
+        <div className="justify-between px-10 mx-auto md:items-center  md:flex md:px-0">
           <div className=" items-center gap-10 md:flex">
             <div>
-              <div className="flex items-center  justify-between py-3 md:py-5 md:block">
+              <div className="flex items-center  justify-between py-3 md:py-5 md:block max-w-[325px]">
                 <h2 className="text-2xl font-bold text-white">
                   <img src={logo} alt="" />
                 </h2>
@@ -93,7 +93,7 @@ export default function NavBar() {
             </div>
           </div>
           <div className="">
-            <img className='sm:w-[395px] ' src={uy} alt="" />
+            <img className='sm:w-[295px] ' src={uy} alt="" />
           </div>
         </div>
       </nav>
