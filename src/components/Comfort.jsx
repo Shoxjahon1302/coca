@@ -1,12 +1,11 @@
 import React from 'react';
 import uyichi2 from '../img/uyichi2.png';
-import uyichi from '../img/uyichi.png';
 import balanduy from '../img/turtuy.png';
 export default function Comfort() {
   return (
     <div className="bg-[#F9F9FB] max-w-full sm:overflow-hidden">
-      <div className=" w-[1440px] m-auto pt-[120px]">
-        <div className="flex sm:flex sm:flex-col sm:items-start p-[75px_54px] items-center gap-[106px] sm:gap-[43px]">
+      <div className=" w-[1440px] m-auto">
+        <div className="flex sm:flex sm:flex-col sm:items-start p-[75px_24px] items-center gap-[106px] sm:gap-[43px]">
           <div className="">
             <h1 className="font-['DM Sans'] sm:w-[286px] sm:tracking-[-1px] w-[510px] sm:text-[48px] font-bold text-[64px] leading-[115%] text-[#101010] tracking-[-3px]">
               THE COMFORT INTERIOR
@@ -19,20 +18,24 @@ export default function Comfort() {
           </div>
           <div className=""></div>
           <img
-            className="w-[384px] h-[372px] sm:ml-[150px] sm:w-[340px] sm:h-[200px] object-contain rounded-[16px]"
+            className="w-[584px] h-[372px] sm:ml-[81px] sm:w-[240px] sm:h-[150px] object-contain rounded-[16px]"
             src={uyichi2}
             alt=""
           />
         </div>
         <img
-          className="mt-[48px] sm:m-[10px_43px] sm:w-[275px] sm:h-[170px] sm:object-contain  rounded-[16px] w-[869px] h-[372px]"
-          src={uyichi}
+          className="mt-[48px] sm:m-[0px_24px] sm:w-[275px] sm:h-[170px] sm:object-cover object-cover  rounded-[16px] w-[871px] h-[372px]"
+          src={uyichi2}
           alt=""
         />
-        <div className="flex pt-[200px] sm:m-[0px_43px] sm:flex-col sm:items-start items-end gap-[67px]">
-          <img className='sm:w-[337px] sm:object-contain' src={balanduy} alt="" />
+        <div className="flex pt-[159px] sm:m-[0px_24px] sm:flex-col sm:items-start items-end gap-[67px]">
+          <img
+            className="sm:w-[327px] sm:object-contain"
+            src={balanduy}
+            alt=""
+          />
           <div className="">
-            <h1 className="text-[#101010] w-[542px] sm:text-[48px] sm:tracking-[-1px] sm:w-[296px] pb-[32px] uppercase tracking-[-3px] not-italic leading-[115%] text-[64px] font-bold font-['DM Sans']">
+            <h1 className="text-[#101010] w-[542px] sm:text-[48px] sm:tracking-[-1px] sm:w-[296px] pb-[16px] uppercase tracking-[-3px] not-italic leading-[115%] text-[64px] font-bold font-['DM Sans']">
               The best places to live in your city, according to real estate
               agents
             </h1>

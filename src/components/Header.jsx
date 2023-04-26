@@ -8,10 +8,10 @@ export default function NavBar() {
   return (
     <div className="max-w-full bg-[#F9F9FB] sm:overflow-hidden">
       <nav className="w-[1440px] m-auto ">
-        <div className="justify-between px-10 mx-auto md:items-center  md:flex md:px-0">
-          <div className=" items-center gap-10 md:flex">
+        <div className="justify-between px-[20px] sm:justify-between mx-auto md:items-center  md:flex">
+          <div className=" items-center md:flex">
             <div>
-              <div className="flex items-center  justify-between py-3 md:py-5 md:block max-w-[325px]">
+              <div className="flex items-center  justify-between py-3 md:py-5 md:block max-w-[335px]">
                 <h2 className="text-2xl font-bold text-white">
                   <img src={logo} alt="" />
                 </h2>
@@ -71,9 +71,9 @@ export default function NavBar() {
             </div>
           </div>
         </div>
-        <div className="flex sm:p-[29px_65px] sm:flex-col">
+        <div className="flex sm:p-[0px_23px] sm:flex-col">
           <div className="flex flex-col items-start">
-            <div className="mt-[108px] border border-[#1D1D21] rounded-[100px] font-bold sm:text-[12px] text-[14px] p-[8px_12px] text-[#1D1D21] font-['Inter'] leading-[150%]">
+            <div className="mt-[65.57px] border border-[#1D1D21] rounded-[100px] font-bold sm:text-[12px] text-[14px] p-[8px_12px] text-[#1D1D21] font-['Inter'] leading-[150%]">
               PROPERTY SOLUTION FOR ALL
             </div>
             <h1 className="pt-[24px] sm:text-[60px] sm:w-[314px]  w-[764px] leading-[110%] tracking-[-3px] text-[#101010] uppercase text-[140px] font-['DM Sans'] font-bold">
@@ -93,7 +93,7 @@ export default function NavBar() {
             </div>
           </div>
           <div className="">
-            <img className='sm:w-[295px] ' src={uy} alt="" />
+            <img className="sm:w-[295px] " src={uy} alt="" />
           </div>
         </div>
       </nav>

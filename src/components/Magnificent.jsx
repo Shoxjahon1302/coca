@@ -8,7 +8,7 @@ import kub from '../img/kub.png';
 export default function Magnificent() {
   return (
     <div className="bg-[#28292D] sm:overflow-hidden">
-      <div className="flex w-[1440px] m-auto h-auto sm:flex-col sm:items-start sm:p-[75px_54px] items-center pt-[130px] pb-[138px]">
+      <div className="flex w-[1440px] m-auto h-auto sm:flex-col sm:items-start sm:p-[75px_23px] items-center pb-[138px]">
         <div className="">
           <h1 className="text-[#FFFFFF] w-[470px] sm:text-[48px] sm:w-[326px] text-[72px] uppercase tracking-[-3px] font-['DM Sans'] font-bold leading-[115%]">
             Magnificent work
@@ -42,22 +42,22 @@ export default function Magnificent() {
             </div>
           </div>
         </div>
-        <div className=" flex sm:justify-start  items-end gap-[30px] justify-end w-full">
+        <div className=" flex sm:justify-start sm:mt-[58px] items-end gap-[30px] justify-end w-full">
           <div className="flex ">
             <img
-              className="w-[278px] h-[536px] object-cover"
+              className="sm:w-[155px] h-[299px] object-cover"
               src={uy3}
               alt=""
             />
           </div>
           <div className="flex flex-col gap-[30px]">
             <img
-              className="w-[278px] rounded-[12px] object-cover"
+              className="sm:w-[156px] rounded-[12px] object-cover"
               src={uy2}
               alt=""
             />
             <img
-              className="w-[563px] h-[366px] rounded-[12px_0px_0px_12px]"
+              className="w-[315px] h-[204px] rounded-[12px_0px_0px_12px]"
               src={uy1}
               alt=""
             />

@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className="bg-white w-full sm:overflow-hidden">
       <div className="max-w-[1440px] m-auto">
-        <div className="flex sm:flex-col sm:p-[43px] sm:border-none sm:items-center sm:w-[375px] items-center justify-between pb-[30px] pt-[100px] border-b-2 border-[#E9ECEF] mix-blend-normal">
+        <div className="flex sm:flex-col sm:pt-[55px] pt-[100px] sm:justify-center sm:border-none sm:items-center sm:w-[375px] items-center justify-between pb-[30px] border-b-2 border-[#E9ECEF] mix-blend-normal">
           <div className="">
             <img
               className="cursor-pointer sm:mb-10"

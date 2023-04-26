@@ -92,7 +92,7 @@ export default function Customes() {
             <SwiperSlide key={key}>
               <div className="pb-[65px] sm:p-[0px_23px]">
                 <div className="pt-[121px] sm:flex-col sm:items-start w-[1440px] justify-between flex items-center">
-                  <h1 className="text-[#FFFFFF] w-[366px] uppercase leading-[130%] text-[48px] font-semibold not-italic font-['Poppins'] ">
+                  <h1 className="text-[#FFFFFF] sm:text-[48px] w-[306px] uppercase leading-[130%] text-[48px] font-semibold not-italic font-['Poppins'] ">
                     {item.title}
                   </h1>
                   <p className="text-[#EDEDED] w-[309px] mr-[20px] leading-[150%] text-[16px] font-medium not-italic font-['Inter']">
@@ -128,7 +128,11 @@ export default function Customes() {
                   </div>
                   <div className="w-[251px] sm:rotate-0 sm:mt-[32.5px] h-0 border rotate-[90deg] border-[#757B8A]"></div>
                   <div className="">
-                    <img className="pt-[81px] sm:pt-11" src={qushtirnoq} alt="" />
+                    <img
+                      className="pt-[81px] sm:pt-11"
+                      src={qushtirnoq}
+                      alt=""
+                    />
                     <h3 className="text-[#FFFFFF] uppercase leading-[120%] text-[18px] pt-[16px] font-bold not-italic font-['DM Sans']">
                       {item.usertitle2}
                     </h3>

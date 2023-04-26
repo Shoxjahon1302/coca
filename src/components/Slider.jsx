@@ -66,10 +66,9 @@ export default function Slider() {
           spaceBetween={50}
           slidesPerView={3}
           scrollbar={{ draggable: true }}
-          onSlideChange={() => console.log('slide change')}
         >
           {data.map((item) => (
-            <SwiperSlide className='pb-[100px] p-[0px_43px]'>
+            <SwiperSlide className="pb-[100px] p-[0px_43px]">
               <h1 className="text-[#E9ECF2] sm:text-[60px] pt-[42px] tracking-[-0.04em] leading-[86px] text-[80px] font-bold not-italic font-['DM Sans']">
                 {item.h1}
               </h1>
