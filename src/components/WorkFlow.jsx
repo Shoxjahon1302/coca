@@ -7,7 +7,7 @@ export default function WorkFlow() {
   return (
     <div className="bg-[#F9F9FB] w-full sm:overflow-hidden">
       <div className="w-[1540px] m-auto ">
-        <h1 className="text-[#1D1E25] ml-[200px] pt-[200px] sm:pt-[103px] sm:text-[48px] sm:tracking-[-3px] sm:w-[386px] uppercase tracking-[-3px] text-center leading-[115%] text-[64px] font-bold not-italic font-['DM Sans'] w-[678px]">
+        <h1 className="text-[#1D1E25] sm:ml-0 ml-[200px] pt-[200px] sm:pt-[103px] sm:text-[48px] sm:tracking-[-3px] sm:w-[386px] uppercase tracking-[-3px] text-center leading-[115%] text-[64px] font-bold not-italic font-['DM Sans'] w-[678px]">
           We’d like to share our workflow
         </h1>
         <div className="flex sm:mt-[36px] sm:overflow-hidden justify-between sm:flex sm:justify-start sm:gap-6 items-end sm:p-[0px_23px] sm:pt-0">
